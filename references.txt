@@ -1,0 +1,15 @@
+Rust => Python:
+    -https://www.maturin.rs
+    -http://saidvandeklundert.net/learn/2021-11-18-calling-rust-from-python-using-pyo3/
+    -https://www.infoworld.com/article/3664124/how-to-use-rust-with-python-and-python-with-rust.html
+
+Genetic Algorithms:
+    -https://nature.berkeley.edu/getz/dominance/GA/gads/gadsdemos/html/gafitness.html
+    -https://www.britannica.com/technology/genetic-algorithm
+Fitness:
+    -https://towardsdatascience.com/how-to-define-a-fitness-function-in-a-genetic-algorithm-be572b9ea3b4
+    -https://www.tutorialspoint.com/genetic_algorithms/genetic_algorithms_fitness_function.htm
+    -https://nature.berkeley.edu/getz/dominance/GA/gads/gadsdemos/html/gafitness.html
+Crossover + Mutation:
+    -https://en.wikipedia.org/wiki/Crossover_(genetic_algorithm)
+    -https://towardsdatascience.com/unit-3-genetic-algorithms-part-1-986e3b4666d7
