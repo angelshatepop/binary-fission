@@ -7,6 +7,7 @@
   the repo as of now is simply a collection of organized src code without anything external but my own solo-developer insanity.
 eventually, this will repo will have a massive change in architecture to ensure successful implementation of external inclusions such as:
 <ul>
+  <li>releases + packages</li>
   <li>github workflows/actions</li>
   <li>language bridging (rust -> py)</li>
   <li>security</li>
