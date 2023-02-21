@@ -1,0 +1,8 @@
+[package]
+name = "bit-simuli-vis-fnd"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+
