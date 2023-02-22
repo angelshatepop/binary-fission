@@ -1,6 +1,10 @@
 use std::collections::BTreeMap;
 mod genetic_algs;
 mod queue;
+//statistically, swearing in code returns better code quality compared to not swearing in code (Jan's Thesis)
+//so, i do not apologize for the language before hand.
+//how the fuck do i make a recursive function to generate an entire population?
+//no clue!
 
 fn main() {
     let (mut alpha_xya, mut alpha_xxa) = 
