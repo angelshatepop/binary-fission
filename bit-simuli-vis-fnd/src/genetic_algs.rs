@@ -27,7 +27,6 @@ pub fn calc_fitness_sequence(child: &mut Vec<u8>) -> u32{
         9 => fitness = 99,
         _ => todo!()
     }
-
     return fitness;
 }
 
