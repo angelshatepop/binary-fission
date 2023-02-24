@@ -2,7 +2,9 @@ use rand::{Rng, distributions::Alphanumeric};
 use std::fs::{OpenOptions};
 use std::io::Write;
 use std::time::Instant;
+
 #[derive(Clone)]
+#[derive(Debug)]
 pub struct Cell { 
     pub name: String,
     pub is_child: Option<bool>,
