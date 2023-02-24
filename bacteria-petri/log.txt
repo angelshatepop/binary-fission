@@ -1,0 +1,9 @@
+[0:0] cell: alpha has been [SPAWNED]
+[0:0] cell: alpha has [SPLIT] => bq6owsk-alpha / Mv8VkTs-alpha
+[0:0] cell: alpha has [SPLIT] => v7J3MWK-alpha / 7vc61eP-alpha
+[0:0] cell: alpha has been [SPAWNED]
+[0:0] cell: alpha has [SPLIT] => TqKPJE2-alpha / s4rXuLc-alpha
+[0:0] cell: alpha has [SPLIT] => 0DjvAnY-alpha / PaAPoAa-alpha
+[0:0] cell: alpha has [SPLIT] => 1GMu1UK-alpha / drjNalm-alpha
+[0:0] cell: alpha has been [SPAWNED]
+[0:0] cell: alpha has [SPLIT] => OIq8KHF-alpha / Co6ZVwM-alpha
