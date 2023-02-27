@@ -1,2 +1,0 @@
-[0:0] cell: 'alpha' has been [SPAWNED]
-[0:0] cell: 'alpha' has [SPLIT] => XyEQV6S-alpha / kxDJijm-alpha
