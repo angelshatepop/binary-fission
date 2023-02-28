@@ -3,6 +3,7 @@ use std::time::Instant;
 mod cell;
 use std::fs::remove_dir_all;
 
+
 fn main() {
     remove_dir_all("simuli/target").err();
     let now = Instant::now();
