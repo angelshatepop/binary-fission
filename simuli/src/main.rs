@@ -8,7 +8,6 @@ fn main() {
     let mut cell_list: Vec<cell::Cell> = Vec::with_capacity(100);
     let alpha_cell = Generate::generate_alpha("alpha".to_string(), &mut cell_list, now, &log);
 
-    
     let (mut _cell1, mut _cell2) = <cell::Cell as BinaryFission>::binary_fission(alpha_cell, &mut cell_list, now, &log).unwrap();
 
     for cell in &cell_list{
