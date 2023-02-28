@@ -1,1 +1,3 @@
 
+[0m 0s] cell: 'alpha' has [SPAWNED] ? Cell { name: "alpha", is_child: Some(false), has_split: Some(false) }
+[0m 0s] cell: 'alpha' has [SPLIT] => pQng4sq-alpha / iKMsh9p-alpha ++cell: 'alpha' [REMOVED]
