@@ -1,8 +1,10 @@
 use cell::*;
 use std::time::Instant;
 mod cell;
+use std::fs::remove_dir_all;
 
 fn main() {
+    remove_dir_all("simuli/target").err();
     let now = Instant::now();
     let log: String = "log.txt".to_string();
     let mut cell_list: Vec<cell::Cell> = Vec::with_capacity(100);

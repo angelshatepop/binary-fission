@@ -1,1 +1,13 @@
 
+[0m 0s] cell: 'alpha' has [SPAWNED] ? Cell { name: "alpha", is_child: Some(false), has_split: Some(false) }
+[0m 0s] cell: 'alpha' has [SPLIT] => wye2h9E-alpha / 6zLDyZJ-alpha ++cell: 'alpha' [REMOVED]
+[0m 0s] cell: 'alpha' has [SPAWNED] ? Cell { name: "alpha", is_child: Some(false), has_split: Some(false) }
+[0m 0s] cell: 'alpha' has [SPLIT] => ANpLpva-alpha / bYenXNg-alpha ++cell: 'alpha' [REMOVED]
+[0m 0s] cell: 'alpha' has [SPAWNED] ? Cell { name: "alpha", is_child: Some(false), has_split: Some(false) }
+[0m 0s] cell: 'alpha' has [SPLIT] => 0x5U5BZ-alpha / hhFk2Js-alpha ++cell: 'alpha' [REMOVED]
+[0m 0s] cell: 'alpha' has [SPAWNED] ? Cell { name: "alpha", is_child: Some(false), has_split: Some(false) }
+[0m 0s] cell: 'alpha' has [SPLIT] => TppUvv6-alpha / rdJoGKu-alpha ++cell: 'alpha' [REMOVED]
+[0m 0s] cell: 'alpha' has [SPAWNED] ? Cell { name: "alpha", is_child: Some(false), has_split: Some(false) }
+[0m 0s] cell: 'alpha' has [SPLIT] => ocb2VES-alpha / EYALLha-alpha ++cell: 'alpha' [REMOVED]
+[0m 0s] cell: 'alpha' has [SPAWNED] ? Cell { name: "alpha", is_child: Some(false), has_split: Some(false) }
+[0m 0s] cell: 'alpha' has [SPLIT] => 9c9tmtZ-alpha / N2N82sh-alpha ++cell: 'alpha' [REMOVED]
