@@ -1,19 +1,40 @@
-use cell::*;
-use std::time::Instant;
-mod cell;
-use std::fs::remove_dir_all;
+use cell::*; mod cell;
+use std::{time::Instant, fs::*, thread};
 
 
 fn main() {
     remove_dir_all("simuli/target").err();
     let now = Instant::now();
     let log: String = "log.txt".to_string();
-    let mut cell_list: Vec<cell::Cell> = Vec::with_capacity(100);
-    let alpha_cell = Generate::generate_alpha("alpha".to_string(), &mut cell_list, now, &log);
+    let depth: u32 = 0;
+    let mut cellsalpha: Vec<cell::Cell> = Vec::with_capacity(100);
+    let mut cellsomega: Vec<cell::Cell> = Vec::with_capacity(100);
 
-    let (mut _cell1, mut _cell2) = <cell::Cell as BinaryFission>::binary_fission(alpha_cell, &mut cell_list, now, &log).unwrap();
+    let alpha: Cell = Generate::generate_alpha("alpha".to_string(), &mut cellsalpha, now, &log);
+    let alphan = alpha.clone().name;
 
-    for cell in &cell_list{
-        println!("{:?}", cell);
-    }
+    let omega: Cell = Generate::generate_alpha("omega".to_string(), &mut cellsomega, now, &"log.txt".to_string());
+    let omegan = omega.clone().name;
+
+    let handle_omega = thread::spawn(move || {
+        <cell::Cell as BinaryFission>::binary_fission(omega, 
+            &mut cellsomega, 
+            now, 
+            &"log.txt".to_string(), 
+            depth, 
+            &omegan)
+            .unwrap();
+    });
+    let handle_alpha = thread::spawn(move ||{
+        <cell::Cell as BinaryFission>::binary_fission(alpha, 
+            &mut cellsalpha, 
+            now, 
+            &log, 
+            depth, 
+            &alphan)
+            .unwrap();
+    });
+
+    handle_omega.join().unwrap();
+    handle_alpha.join().unwrap();
 }
