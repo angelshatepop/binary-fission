@@ -36,7 +36,7 @@ impl BinaryFission for Cell {
         return cell;
     }
     fn binary_fission(mut parent: Cell, vec: &mut Vec<Cell>, start: time::Instant, log: &String, depth: u32, name: &String) -> Option<(Cell, Cell)>{
-        sleep(time::Duration::from_millis(1000));
+        sleep(time::Duration::from_millis(500));
         const MAX_DEPTH: u32 = 100;
         if depth >= MAX_DEPTH {
             std::process::abort();
